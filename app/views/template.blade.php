@@ -211,14 +211,11 @@
     <footer id="footer" class="midnight-blue">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6">
-                    &copy; Sadguru Sadafaldeo Vihangam Yoga Sansthan</div>
-                <div class="col-sm-6">
+                <div class="col-sm-11">
+                    &copy; Sadguru Sadafaldeo Vihangam Yoga Sansthan , registered under Society Registration Act 1861 , Registration No - 1345/2010 , file no. IV-7432</div>
+                <div class="col-sm-1">
                     <ul class="pull-right">
                         <li><a href="{{URL::Route('home')}}">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Faq</a></li>
-                        <li><a href="#">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
