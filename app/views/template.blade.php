@@ -222,11 +222,11 @@
         </div>
     </footer><!--/#footer-->
 
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/wow.min.js"></script>
+    <script src="{{URL::asset('js/jquery.js')}}"></script>
+    <script src="{{URL::asset('js/bootstrap.min.js')}}"></script>
+    <script src="{{URL::asset('js/jquery.prettyPhoto.js')}}"></script>
+    <script src="{{URL::asset('js/jquery.isotope.min.js')}}"></script>
+    <script src="{{URL::asset('js/main.js')}}"></script>
+    <script src="{{URL::asset('js/wow.min.js')}}"></script>
 </body>
 </html>
