@@ -118,7 +118,7 @@
     @yield('body')
 
    
-
+{{--
     <section id="bottom">
         <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
             <div class="row">
@@ -184,7 +184,7 @@
             </div>
         </div>
     </section><!--/#bottom-->
-
+--}}
     <footer id="footer" class="midnight-blue">
         <div class="container">
             <div class="row">
