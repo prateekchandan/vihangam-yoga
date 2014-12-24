@@ -12,7 +12,9 @@
             </ol>
             <div class="carousel-inner">
 
-                <div class="item active" style="background-image: url({{URL::asset('assets/images/slider/bgn1.jpg')}}"></div><!--/.item-->
+                <div class="item active" style="">
+                    <img src="{{URL::asset('assets/images/slider/bgn1.jpg')}}" class="img-responsive">
+                </div><!--/.item-->
                 <div class="item " style="background-image: url({{URL::asset('assets/images/slider/banner.gif')}}"></div><!--/.item-->
                 <div class="item " style="background-image: url({{URL::asset('assets/images/slider/banner1.gif')}}"></div><!--/.item-->
                 <div class="item " style="background-image: url({{URL::asset('assets/images/slider/banner2.gif')}}"></div><!--/.item-->
