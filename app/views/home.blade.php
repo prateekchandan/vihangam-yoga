@@ -4,21 +4,37 @@
     <section id="main-slider" class="no-margin">
         <div class="carousel slide">
             <ol class="carousel-indicators">
-                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
-                <li data-target="#main-slider" data-slide-to="1"></li>
-                <li data-target="#main-slider" data-slide-to="2"></li>
-                <li data-target="#main-slider" data-slide-to="3"></li>
-                <li data-target="#main-slider" data-slide-to="4"></li>
+                <?php
+                    $path=public_path().'/assets/images/slider';
+                    $dir = new DirectoryIterator($path);
+                    $count=0;
+                    foreach ($dir as $key => $fileinfo) {
+                        if (!$fileinfo->isDot()) {
+                            if($count==0)
+                                echo '<li data-target="#main-slider" data-slide-to="'.$count.'" class="active"></li>
+                            ';
+                            else
+                                echo '<li data-target="#main-slider" data-slide-to="'.$count.'"></li>
+                            ';
+                            $count++;
+                        }
+                    }
+                ?>
             </ol>
             <div class="carousel-inner">
-
-                <div class="item active" style="">
-                    <img src="{{URL::asset('assets/images/slider/bgn1.jpg')}}" class="img-responsive">
-                </div><!--/.item-->
-                <div class="item " style="background-image: url({{URL::asset('assets/images/slider/banner.gif')}}"></div><!--/.item-->
-                <div class="item " style="background-image: url({{URL::asset('assets/images/slider/banner1.gif')}}"></div><!--/.item-->
-                <div class="item " style="background-image: url({{URL::asset('assets/images/slider/banner2.gif')}}"></div><!--/.item-->
-
+                @foreach ($dir as $key => $fileinfo)
+                        @if (!$fileinfo->isDot())
+                            @if($key==0)
+                                <div class="item active">
+                                    <img src="{{URL::asset('assets/images/slider/'.$fileinfo->getFilename())}}" class="img-responsive">
+                                </div><!--/.item-->
+                            @else
+                                <div class="item">
+                                    <img src="{{URL::asset('assets/images/slider/'.$fileinfo->getFilename())}}" class="img-responsive">
+                                </div><!--/.item-->
+                            @endif
+                        @endif
+                @endforeach
             </div><!--/.carousel-inner-->
         </div><!--/.carousel-->
         <a class="prev hidden-xs" href="#main-slider" data-slide="prev">

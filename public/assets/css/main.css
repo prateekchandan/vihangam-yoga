@@ -409,13 +409,16 @@ input.search-form:hover {
   position: absolute;
   width: 100%;
   display: block !important;
-  height: 730px;
+  /*height: 730px;*/
   -webkit-transition: opacity ease-in-out 500ms;
   -moz-transition: opacity ease-in-out 500ms;
   -o-transition: opacity ease-in-out 500ms;
   transition: opacity ease-in-out 500ms;
 }
 
+#main-slider .carousel .item img{
+  width: 100%;
+}
 #main-slider .carousel .item:first-child {
   top: auto;
   position: relative;
