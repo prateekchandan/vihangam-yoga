@@ -17,6 +17,7 @@ class HomeController extends BaseController {
 
 	public function home()
 	{
+		View::share('page_title','Unwinding Sprituality');
 		return View::make('home');
 	}
 

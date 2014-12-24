@@ -5,18 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Home | Corlate</title>
+    <title>Vihangam Yoga - {{(isset($page_title))?$page_title:'Best Mediation Technique'}}
+
+    </title>
     
     <!-- core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/prettyPhoto.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
+    <link href="{{URL::asset('assets/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{URL::asset('assets/css/font-awesome.min.css')}}" rel="stylesheet">
+    <link href="{{URL::asset('assets/css/animate.min.css')}}" rel="stylesheet">
+    <link href="{{URL::asset('assets/css/prettyPhoto.css')}}" rel="stylesheet">
+    <link href="{{URL::asset('assets/css/main.css')}}" rel="stylesheet">
+    <link href="{{URL::asset('assets/css/responsive.css')}}" rel="stylesheet">
     <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
+    <script src="{{URL::asset('assets/js/html5shiv.js')}}"></script>
+    <script src="{{URL::asset('assets/js/respond.min.js')}}"></script>
     <![endif]-->       
     <link rel="shortcut icon" href="images/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
@@ -32,7 +34,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-xs-4">
-                        <div class="top-number"><p><i class="fa fa-phone-square"></i>  +0123 456 70 90</p></div>
+                            <ul class="social-share">
+                                <li><a href="mailto:info@vihangamyoga.org"><i class="fa fa-envelope"></i></a></li>
+                                <li>
+                                    <a class="btn" href="http://www.swarved-mahamandir.org/#events_wrapper" style="width:100%;height:auto;padding:0px;padding-left:4px;padding-right:4px;">Donate Now</a>
+                                </li>
+                            </ul>
                     </div>
                     <div class="col-sm-6 col-xs-8">
                        <div class="social">
@@ -40,8 +47,8 @@
                                 <li><a href="http://www.facebook.com/vihangamyoga"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="http://twitter.com/Vihangam_Yoga"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="http://www.youtube.com/user/vihangamyoga#p/a"><i class="fa fa-youtube"></i></a></li> 
-                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                <li><a href="http://groups.yahoo.com/group/vihangamyoga/"><i class="fa fa-yahoo"></i></a></li>
+                                <li><a href="mailto:vihangamyoga@gmail.com"><i class="fa fa-google-plus"></i></a></li>
                             </ul>
                             <div class="search">
                                 <form role="form">
@@ -64,26 +71,43 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="{{URL::Route('home')}}"><img src="{{URL::asset('assets/images/ico/logo.jp')}}" alt="Vihangam Yoga"></a>
                 </div>
                 
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="about-us.html">About Us</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="{{URL::Route('home')}}">Home</a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="blog-item.html">Blog Single</a></li>
-                                <li><a href="pricing.html">Pricing</a></li>
-                                <li><a href="404.html">404</a></li>
-                                <li><a href="shortcodes.html">Shortcodes</a></li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Centres <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu" style="min-width:310px">
+                                <li><a href="#">Vrittikut Ashram , Ballia </a></li>
+                                <li><a href="#">Maharshi Sadafaldeo Ashram , Allahabad</a></li>
+                                <li><a href="#">Himalaya Shunya Sikhar Ashram</a></li>
+                                <li><a href="#">Madhumati Ashram , Gaya</a></li>
+                                <li><a href="#">Dandakvan Ashram , Gujrat</a></li>
+                                <li><a href="#">Swarved Mahamandir , Varanasi</a></li>
                             </ul>
                         </li>
-                        <li><a href="blog.html">Blog</a></li> 
-                        <li><a href="contact-us.html">Contact</a></li>                        
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Society <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Health &amp; Environment </a></li>
+                                <li><a href="#">Social Services</a></li>
+                                <li><a href="#">Initiatives</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Inspiration<i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Sadguru Sadafal Deo Ji Maharaj</a></li>
+                                <li><a href="#">Sadguru Dharmachandra Deo Ji Maharaj</a></li>
+                                <li><a href="#">Sadguru Swatantra Deo Ji Maharaj</a></li>
+                                <li><a href="#">Sant Pravar Vigyan Deo Ji Maharaj</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="{{URL::Route('home')}}">Home</a></li>
+                                  
                     </ul>
                 </div>
             </div><!--/.container-->
@@ -93,23 +117,7 @@
 
     @yield('body')
 
-    <section id="conatcat-info">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8">
-                    <div class="media contact-info wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="pull-left">
-                            <i class="fa fa-phone"></i>
-                        </div>
-                        <div class="media-body">
-                            <h2>Have a question or need a custom quote?</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation +0123 456 70 80</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><!--/.container-->    
-    </section><!--/#conatcat-info-->
+   
 
     <section id="bottom">
         <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
@@ -181,11 +189,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    &copy; 2013 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a>. All Rights Reserved.
-                </div>
+                    &copy; Sadguru Sadafaldeo Vihangam Yoga Sansthan</div>
                 <div class="col-sm-6">
                     <ul class="pull-right">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="{{URL::Route('home')}}">Home</a></li>
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Faq</a></li>
                         <li><a href="#">Contact Us</a></li>
