@@ -19,21 +19,24 @@
                             $count++;
                         }
                     }
+                    $count=0;
                 ?>
             </ol>
             <div class="carousel-inner">
                 @foreach ($dir as $key => $fileinfo)
                         @if (!$fileinfo->isDot())
-                            @if($key==0)
+                            @if($count==0)
                                 <div class="item active">
                                     <img src="{{URL::asset('assets/images/slider/'.$fileinfo->getFilename())}}" class="img-responsive">
                                 </div><!--/.item-->
-                            @else
+                            @else 
                                 <div class="item">
                                     <img src="{{URL::asset('assets/images/slider/'.$fileinfo->getFilename())}}" class="img-responsive">
                                 </div><!--/.item-->
+
                             @endif
                         @endif
+                        <?php $count++ ; ?>
                 @endforeach
             </div><!--/.carousel-inner-->
         </div><!--/.carousel-->
