@@ -23,6 +23,7 @@
                 ?>
             </ol>
             <div class="carousel-inner">
+                <?php $count=0; ?>
                 @foreach ($dir as $key => $fileinfo)
                         @if (!$fileinfo->isDot())
                             @if($count==0)
