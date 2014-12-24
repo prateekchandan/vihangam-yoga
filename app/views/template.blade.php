@@ -63,7 +63,7 @@
         </div><!--/.top-bar-->
 
         <nav class="navbar navbar-inverse" role="banner">
-            <div class="container">
+            <div class="container" style="width:95%">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="sr-only">Toggle navigation</span>
@@ -99,14 +99,37 @@
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Inspiration<i class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu" style="min-width:320px">
                                 <li><a href="#">Sadguru Sadafal Deo Ji Maharaj</a></li>
                                 <li><a href="#">Sadguru Dharmachandra Deo Ji Maharaj</a></li>
                                 <li><a href="#">Sadguru Swatantra Deo Ji Maharaj</a></li>
                                 <li><a href="#">Sant Pravar Vigyan Deo Ji Maharaj</a></li>
                             </ul>
                         </li>
-                        <li><a href="{{URL::Route('home')}}">Home</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery<i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Sadguru Pictures</a></li>
+                                <li><a href="#">Sant Pravar Pictures</a></li>
+                                <li><a href="#">Ashram Pictures</a></li>
+                                <li><a href="#">Vintage Pictures</a></li>
+                                <li><a href="http://www.youtube.com/vihangamyoga">Video</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Global Reach<i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">India</a></li>
+                                <li><a href="#">International</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Scientific Aspects<i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Research</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Press Release</a></li>
                                   
                     </ul>
                 </div>
