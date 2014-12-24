@@ -36,8 +36,8 @@
                                 </div><!--/.item-->
 
                             @endif
+                            <?php $count++ ; ?>
                         @endif
-                        <?php $count++ ; ?>
                 @endforeach
             </div><!--/.carousel-inner-->
         </div><!--/.carousel-->
