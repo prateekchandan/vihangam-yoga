@@ -57,9 +57,9 @@
                     <div class="blog-item">
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 blog-content">
-                                <h2><a href="blog-item.html">About VIhangam Yoga</a></h2>
+                                <h2><a href="{{URL::Route('about')}}">About VIhangam Yoga</a></h2>
                                 <h3>Vihangam Yoga Organization is an NGO and a pioneer in yoga and advance meditation training, aiming at uplifting the human life in all aspects. The organization was established in the year 1924 by His Holiness Sadguru Sadafaldeo Ji Maharaj who discovered this wonderful meditation technique after 17 year of strenuous meditation practice. Today, under the holy guidance of present Sadguru His Holiness Shri Swatantradeo Ji Maharaj, Vihangam Yoga has reached around 35 nations with hundreds of Ashrams and has transformed the lives of more than 5 million disciples belonging to different races, </h3>
-                                <a class="btn btn-primary readmore" href="">Read More <i class="fa fa-angle-right"></i></a>
+                                <a class="btn btn-primary readmore" href="{{URL::Route('about')}}">Read More <i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>    
                     </div><!--/.blog-item-->

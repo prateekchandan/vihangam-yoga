@@ -21,5 +21,11 @@ class HomeController extends BaseController {
 		return View::make('home');
 	}
 
+	public function about()
+	{
+		View::share('page_title','About Vihangam Yoga');
+		return View::make('page.about');
+	}
+
 
 }
