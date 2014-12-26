@@ -80,7 +80,7 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Centres <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu" style="min-width:310px">
-                                <li><a href="#">Vrittikut Ashram , Ballia </a></li>
+                                <li><a href="{{URL::Route('vrittikut')}}">Vrittikut Ashram , Ballia </a></li>
                                 <li><a href="#">Maharshi Sadafaldeo Ashram , Allahabad</a></li>
                                 <li><a href="#">Himalaya Shunya Sikhar Ashram</a></li>
                                 <li><a href="#">Madhumati Ashram , Gaya</a></li>

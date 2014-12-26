@@ -1,6 +1,13 @@
 @extends('template')
 
 @section('body')
+<style type="text/css">
+    .side-img{
+        width: 100%;
+        box-shadow: 0px 0px 10px #ccc;
+        border-radius: 10px;
+    }
+</style>
     <section id="main-slider" class="no-margin">
         <div class="carousel slide">
             <ol class="carousel-indicators">
@@ -52,6 +59,7 @@
         <div class="blog">
             <div class="row">
                 <div class="col-md-4">
+                    <img src="{{URL::asset('assets/images/all/Brahm Vidya Vihangam Yoga is a science - a conscious science.jpg')}}" class="side-img">
                 </div>
                 <div class="col-md-8">
                     <div class="blog-item">

@@ -27,5 +27,11 @@ class HomeController extends BaseController {
 		return View::make('page.about');
 	}
 
+	public function vrittikut()
+	{
+		View::share('page_title','Vrittikut Ashram , Ballia');
+		return View::make('ashram.vrittikut');
+	}
+
 
 }
