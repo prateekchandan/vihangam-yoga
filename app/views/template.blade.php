@@ -81,11 +81,11 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Centres <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu" style="min-width:310px">
                                 <li><a href="{{URL::Route('vrittikut')}}">Vrittikut Ashram , Ballia </a></li>
-                                <li><a href="#">Maharshi Sadafaldeo Ashram , Allahabad</a></li>
-                                <li><a href="#">Himalaya Shunya Sikhar Ashram</a></li>
-                                <li><a href="#">Madhumati Ashram , Gaya</a></li>
-                                <li><a href="#">Dandakvan Ashram , Gujrat</a></li>
-                                <li><a href="#">Swarved Mahamandir , Varanasi</a></li>
+                                <li><a href="{{URL::Route('jhunsi')}}">Maharshi Sadafaldeo Ashram , Allahabad</a></li>
+                                <li><a href="{{URL::Route('shunya_sikhar')}}">Himalaya Shunya Sikhar Ashram</a></li>
+                                <li><a href="{{URL::Route('madhumati')}}">Madhumati Ashram , Gaya</a></li>
+                                <li><a href="{{URL::Route('dandakvan')}}">Dandakvan Ashram , Gujrat</a></li>
+                                <li><a href="{{URL::Route('mahamandir')}}">Swarved Mahamandir , Varanasi</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">

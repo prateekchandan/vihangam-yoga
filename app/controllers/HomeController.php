@@ -33,5 +33,35 @@ class HomeController extends BaseController {
 		return View::make('ashram.vrittikut');
 	}
 
+	public function jhunsi()
+	{
+		View::share('page_title','Maharshi Sadafaldeo Ashram, Jhunsi, Allahabad');
+		return View::make('ashram.jhunsi');
+	}
+
+	public function shunya_sikhar()
+	{
+		View::share('page_title','Himalaya Shunya Shikar Ashram');
+		return View::make('ashram.shunya_sikhar');
+	}
+
+	public function madhumati()
+	{
+		View::share('page_title','Madhumati Ashram , Gaya');
+		return View::make('ashram.vrittikut');
+	}
+
+	public function dandakvan()
+	{
+		View::share('page_title','Dandakvan Ashram , Gujrat');
+		return View::make('ashram.vrittikut');
+	}
+
+	public function mahamandir()
+	{
+		View::share('page_title','Swarveda Mahamandir , Varanasi');
+		return View::make('ashram.vrittikut');
+	}
+
 
 }
