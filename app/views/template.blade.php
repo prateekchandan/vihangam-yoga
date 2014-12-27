@@ -29,7 +29,7 @@
 
 <body class="homepage">
 
-    <header id="header">
+    <header id="header">{{--
         <div class="top-bar">
             <div class="container">
                 <div class="row">
@@ -61,7 +61,7 @@
                 </div>
             </div><!--/.container-->
         </div><!--/.top-bar-->
-
+--}}
         <nav class="navbar navbar-inverse" role="banner">
             <div class="container" style="width:95%">
                 <div class="navbar-header">
