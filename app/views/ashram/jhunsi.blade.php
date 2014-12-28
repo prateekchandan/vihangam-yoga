@@ -8,7 +8,7 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                     <div class="blog-item">
-                        <img class="img-responsive img-blog" src="{{URL::asset('assets/images/slider/Banner6.gif')}}" width="100%" alt="" />
+                        <img class="img-responsive img-blog" src="{{URL::asset('assets/images/slider/jhunsi-ashram.png')}}" width="100%" alt="" />
                             <div class="row">  
                                 <div class="col-xs-12 col-sm-12 blog-content">
                                     <h2><a href="#">Maharshi Sadafaldeo Ashram, Jhunsi, Allahabad</a></h2>

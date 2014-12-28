@@ -8,7 +8,7 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                     <div class="blog-item">
-                        <img class="img-responsive img-blog" src="{{URL::asset('assets/images/slider/Banner3.gif')}}" width="100%" alt="" />
+                        <img class="img-responsive img-blog" src="{{URL::asset('assets/images/slider/dandankvan-ashram.png')}}" width="100%" alt="" />
                             <div class="row">  
                                 <div class="col-xs-12 col-sm-12 blog-content">
                                     <h2><a href="#">Dandakvan Ashram</a></h2>
