@@ -48,19 +48,19 @@ class HomeController extends BaseController {
 	public function madhumati()
 	{
 		View::share('page_title','Madhumati Ashram , Gaya');
-		return View::make('ashram.vrittikut');
+		return View::make('ashram.madhumati');
 	}
 
 	public function dandakvan()
 	{
 		View::share('page_title','Dandakvan Ashram , Gujrat');
-		return View::make('ashram.vrittikut');
+		return View::make('ashram.dandakvan');
 	}
 
 	public function mahamandir()
 	{
 		View::share('page_title','Swarveda Mahamandir , Varanasi');
-		return View::make('ashram.vrittikut');
+		return View::make('ashram.mahamandir');
 	}
 
 

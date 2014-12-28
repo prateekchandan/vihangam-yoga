@@ -11,14 +11,14 @@
                         <img class="img-responsive img-blog" src="{{URL::asset('assets/images/slider/Banner8.gif')}}" width="100%" alt="" />
                             <div class="row">  
                                 <div class="col-xs-12 col-sm-12 blog-content">
-                                    <h2><a href="#">Vrittikut Ashram</a></h2>
-                                    <p>Vrittikut Ashram is a unique ashram of Vihangam Yoga, situated in village Pakadi of Balia district in U.P, India. It is also the birth place of Sri Sadguru Sadafaldeoji Maharaj. It is full of green environment surrounded with natural ponds. </p>
+                                    <h2><a href="#">Madhumati Ashram</a></h2>
+                                    <p>This ashram is situated on the banks of river "Falgu" and is very close historical place 'Bodh Gaya'.</p>
                                     <div class="post-tags">
                                         <strong>Address :</strong><br>
-                                        P.O. - Pakri,<br>
-										Ballia, Uttar Pradesh, India<br>
-										Pin - 277123<br>
-										Ph # +91-5498-254041<br>
+                                        Janakpur, P.O. Buniyadganj,<br>
+										Gaya, Bihar, India<br>
+										Pin - 823003<br>
+										Ph # +91-631-2450435<br>
                                     </div>
 
                                 </div>
@@ -28,11 +28,14 @@
                         <div class="media reply_section">
                             <div class="media-body post_reply_content">
                                 <h3>How to Reach</h3>
-                                <strong>By Train:</strong>
-								<p>Delhi to Buxar: Buxar is well connected via train from Delhi. A taxi can be hired from Buxar to reach the Ashram located in Pur Pakri. The route is as follows - Buxar -> Fefna -> Garwar -> Ratsar -> Pur Pakri. Delhi to Ballia: Ballia Station -> Pur Pakri (7 Kms Approx) In Pur Pakri, a rickshaw can be hired for Vrittikut Ashram in Pakri Chowk. The Ashram is around 2 Kms from Pakri Chowk.</p>
-
-								<strong>Via Air:</strong>
-								<p>Alight at Varanasi Airport. The route from Varanasi Airport is: Varanasi -> Gazipur -> Fefna -> Garwar -> Ratsar -> Pur Pakri. In Pur Pakri, a rickshaw can be hired for Vrittikut Ashram in Pakri Chowk. The Ashram is around 2 Kms from Pakri Chowk. The approximate distance from Varanasi to Vrittikut Ashram is 150 Kms. </p>
+                               	<p>Traveler has to reach GAYA through Train / Bus. Madhumati Ashram is situated in Janakpur in Gaya. The traveler can take direct Auto for the Ashram from Railway Station / Bus Stand</p>
+                               	<p>
+                               		If you come by private vehicle, follow the route given below:
+                               		<ul>
+                               			<li>Cross the Falgu river bridge</li>
+                               			<li>Reach Mufassil Thaana. Turn left at Muffassil Thaan and go for half Km. Turn left at Ashram Board showing direction and follow Arrow afterwards</li>
+                               		</ul>
+                               	</p>
                             </div>
                         </div> 
                         
@@ -40,15 +43,15 @@
                             <div class="media-body post_reply_content">
                             	<div clas="row">
 	                            	<div class="col-md-8">
-		                                <h2>Mahamandir</h2>
-		                                <p>It is the main focal point of the Ashram, where on meditation, people can feel the spiritual vibration and practical experiences within them. Here Sri Sadguru Sadafaldeoji Maharaj himself has practiced meditation. It is a five floored construction, indicating the five steps of Vihangam Yoga, with a lotus structure at the top.</p>
+		                                <h2>Meditation Cave</h2>
+		                                <p>Like other ashrams of Vihangam Yoga, Madhumati Ashram is also having an underground Chamber dedicated for Meditation.</p>
 	                                </div>
 	                                <div class="col-md-4">
 		                                <div class="recent-work-wrap">
 					                        <img class="img-responsive" src="{{URL::asset('assets/images/ashram/vrittikut/mahamandir.png')}}" alt="">
 					                        <div class="overlay">
 					                            <div class="recent-work-inner">
-					                                <h3><a href="#">Mahamandir</a> </h3>
+					                                <h3><a href="#">Meditation Cave</a> </h3>
 					                                <a class="preview" href="{{URL::asset('assets/images/ashram/vrittikut/mahamandir.png')}}" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
 					                            </div> 
 					                        </div>
@@ -62,15 +65,15 @@
                             <div class="media-body post_reply_content">
                             	<div clas="row">
 	                            	<div class="col-md-8">
-		                                <h2>Samadhi Sthali</h2>
-		                                <p>Holy grave (समाधी) of family of saints - Baba Skambh Muni (Father of Shri Sadguru Sadafaldeoji Maharaj) - Maharani Mukti Devi (Mother of Shri Sadguru Sadafaldeoji Maharaj) - Shri Sadguru Dharmachandradeoji Maharaj.</p>
+		                                <h2>Model of Shunya Shikhar</h2>
+		                                <p>Hosts a prototype model of Shoonya Shikhar Ashram, situated in Himalayan range.</p>
 	                                </div>
 	                                <div class="col-md-4">
 		                                <div class="recent-work-wrap">
 					                        <img class="img-responsive" src="{{URL::asset('assets/images/ashram/vrittikut/mahamandir.png')}}" alt="">
 					                        <div class="overlay">
 					                            <div class="recent-work-inner">
-					                                <h3><a href="#">Samadhi Sthali</a> </h3>
+					                                <h3><a href="#">Model of Shunya Shikhar</a> </h3>
 					                                <a class="preview" href="{{URL::asset('assets/images/ashram/vrittikut/mahamandir.png')}}" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
 					                            </div> 
 					                        </div>
@@ -84,37 +87,15 @@
                             <div class="media-body post_reply_content">
                             	<div clas="row">
 	                            	<div class="col-md-8">
-		                                <h2>Brahmavedi</h2>
-		                                <p>Place where Sri Sadguru Sadafaldeoji Maharaj used to initiate and quench the thirst of Spiritual Seekers.</p>
+		                                <h2>Acharya Niwas</h2>
+		                                <p>Abode of Sri Sadguru Swatantradeo Ji Maharaj</p>
 	                                </div>
 	                                <div class="col-md-4">
 		                                <div class="recent-work-wrap">
 					                        <img class="img-responsive" src="{{URL::asset('assets/images/ashram/vrittikut/mahamandir.png')}}" alt="">
 					                        <div class="overlay">
 					                            <div class="recent-work-inner">
-					                                <h3><a href="#">Brahmavedi</a> </h3>
-					                                <a class="preview" href="{{URL::asset('assets/images/ashram/vrittikut/mahamandir.png')}}" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-					                            </div> 
-					                        </div>
-					                    </div>
-	                                </div>
-	                            </div>
-                            </div>
-                        </div> 
-
-                        <div class="media reply_section">
-                            <div class="media-body post_reply_content">
-                            	<div clas="row">
-	                            	<div class="col-md-8">
-		                                <h2>Brahmacoop</h2>
-		                                <p>A well that is a source of water within the premises of ashram and thus named as Brahmacoop. It's a Natural Spring in the form of a Well.</p>
-	                                </div>
-	                                <div class="col-md-4">
-		                                <div class="recent-work-wrap">
-					                        <img class="img-responsive" src="{{URL::asset('assets/images/ashram/vrittikut/mahamandir.png')}}" alt="">
-					                        <div class="overlay">
-					                            <div class="recent-work-inner">
-					                                <h3><a href="#">Brahmacoop</a> </h3>
+					                                <h3><a href="#">Acharya Niwas</a> </h3>
 					                                <a class="preview" href="{{URL::asset('assets/images/ashram/vrittikut/mahamandir.png')}}" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
 					                            </div> 
 					                        </div>
@@ -129,7 +110,7 @@
                             	<div clas="row">
 	                            	<div class="col-md-8">
 		                                <h2>Guest House</h2>
-		                                <p>Well furnished 3 - Floored Guest Rooms and separate Guest House for devotees and seekers.</p>
+		                                <p>Well furnished guest rooms available for the visitors, seekers and devotees.</p>
 	                                </div>
 	                                <div class="col-md-4">
 		                                <div class="recent-work-wrap">
@@ -146,8 +127,6 @@
                             </div>
                         </div> 
 
-
-                        
                 </div><!--/.col-md-8-->
 
                     
