@@ -64,4 +64,11 @@ class HomeController extends BaseController {
 	}
 
 
+	/********************    PAGES    *************************/
+	public function healthEnvironment()
+	{
+		View::share('page_title','Health and Environment');
+		return View::make('page.healthEnvironment');
+	}
+
 }

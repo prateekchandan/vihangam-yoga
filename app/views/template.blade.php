@@ -91,7 +91,7 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Society <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Health &amp; Environment </a></li>
+                                <li><a href="{{URL::Route('healthEnvironment')}}">Health &amp; Environment </a></li>
                                 <li><a href="#">Social Services</a></li>
                                 <li><a href="#">Initiatives</a></li>
                                 

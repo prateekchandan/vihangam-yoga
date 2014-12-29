@@ -9,3 +9,7 @@ Route::get('shunya-shikhar-ashram',array('as'=>'shunya_sikhar','uses'=>'HomeCont
 Route::get('madhumati-ashram',array('as'=>'madhumati','uses'=>'HomeController@madhumati'));
 Route::get('dandakvan-ashram',array('as'=>'dandakvan','uses'=>'HomeController@dandakvan'));
 Route::get('swarved-mahamandir',array('as'=>'mahamandir','uses'=>'HomeController@mahamandir'));
+
+// Pages
+Route::get('health-and-environment',array('as'=>'healthEnvironment','uses'=>'HomeController@healthEnvironment'));
+
