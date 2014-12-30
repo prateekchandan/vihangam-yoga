@@ -71,4 +71,10 @@ class HomeController extends BaseController {
 		return View::make('page.healthEnvironment');
 	}
 
+	public function socialServices()
+	{
+		View::share('page_title','Social Services');
+		return View::make('page.socialServices');
+	}
+
 }

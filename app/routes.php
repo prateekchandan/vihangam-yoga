@@ -12,4 +12,5 @@ Route::get('swarved-mahamandir',array('as'=>'mahamandir','uses'=>'HomeController
 
 // Pages
 Route::get('health-and-environment',array('as'=>'healthEnvironment','uses'=>'HomeController@healthEnvironment'));
+Route::get('social-services',array('as'=>'socialServices','uses'=>'HomeController@socialServices'));
 
